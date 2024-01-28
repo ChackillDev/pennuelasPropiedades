@@ -1,0 +1,45 @@
+body *{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dim-imag-carr{
+width: 20%;
+
+}
+.texto-lobster{
+    font-family: "Lobster";
+    font-weight: 400;
+}
+
+.bg-propio, .carousel-control-next, .carousel-control-prev
+{
+    background-color: #373A3C;
+}
+
+.bg-newsl {
+    background-color: #DC3545;
+}
+.title-color{
+    color: #212529;
+}
+
+.tx-color, .carousel-item {
+    color: #FFFFFF;
+}
+
+@media screen and (width< 768px) {#carrusel_Ricomida
+    {
+        display: none;
+    }
+}
+
+@media screen and (width< 576px) {.barra-nav
+    {
+        text-align: center;
+    }
+}
+

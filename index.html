@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Christian Chacón B">
+    <meta name="description" content="Ricomida">
+    <meta name="keywords" content="Comidas, Restaurant, Entrega, Delivery ">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <!-- links, script locales -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="/assets/js/scripts.js"></script>
+    <!-- links, scripts externos -->
+
+    <title>Ricomida</title>
+
+</head>
+
+<body>
+    <!-- barra de navegación -->
+
+    <div class="sticky-top mb-5 barra-nav ">
+        <nav class="navbar navbar-expand-sm mg-auto bg-propio justify-content-around " data-bs-theme="dark">
+            <a class="navbar-brand" href="#">
+                <h3 class="texto-lobster">
+                    Ricomida
+                </h3>
+            </a>
+            <div class="colapso">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" href="#">Resetas</a>
+                        <a class="nav-link active" href="#">Nosotros</a>
+                        <a class="nav-link active" href="#">Contacto</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    TODO DISPLAY COL 6-6,
+    Tooltip: Incluir un botón "Enviar por correo" con un tooltip aplicado. (1 Punto)
+    Utilizar el evento “click” de jquery para mostrar una alerta al hacer un clic
+    sobre el botón de "Enviar por Correo" mediante el uso de los selectores por Id,
+    implementar el id a la etiqueta del botón con nombre: "enviarCorreo". El mensaje a
+    mostrar en la alerta deberá ser: "El correo fue enviado correctamente...". (2 Puntos)
+
+
+
+
+    <div id="carrusel_Ricomida" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrusel_Ricomida" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carrusel_Ricomida" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+        </div>
+        <div class="container text-center carousel-inner ">
+            <div class="carousel-item active ">
+                <img src="assets/img/slider-1.png" class="col-3 dim-imag-carr " alt="slider-1">
+                <img src="assets/img/slider-2.png" class="col-3 dim-imag-carr " alt="slider-2">
+                <img src="assets/img/slider-3.png" class="col-3 dim-imag-carr " alt="slider-3">
+                <img src="assets/img/slider-4.png" class="col-3 dim-imag-carr " alt="slider-4">
+            </div>
+            <div class="carousel-item ">
+                <img src="assets/img/slider-5.png" class="col-3 dim-imag-carr " alt="slider-5">
+                <img src="assets/img/slider-6.png" class="col-3 dim-imag-carr " alt="slider-6">
+                <img src="assets/img/slider-7.png" class="col-3 dim-imag-carr " alt="slider-7">
+                <img src="assets/img/slider-8.png" class="col-3 dim-imag-carr " alt="slider-8">
+
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button " data-bs-target="#carrusel_Ricomida" data-bs-slide="prev ">
+            <span class="carousel-control-prev-icon bs-light-border-subtle" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button " data-bs-target="#carrusel_Ricomida" data-bs-slide="next ">
+            <span class="carousel-control-next-icon bs-black-border-subtle" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+    <!-- RECETAS -->
+    TODO RECETAS (DISPLAY COL 6-6), Se deben ingresar dos parrafos
+    Selectores de etiqueta: Utilizando los selectores de etiqueta y el método de jQuery
+    `on` con el evento `dblclick`, solamente modificar el color del texto de los títulos
+    "INGREDIENTES" y "PREPARACIÓN" a color rojo cuando se haga doble clic sobre
+    cada uno de ellos por individual. (3 Puntos)
+
+    <!-- Imagenes de recetas -->
+    TODO IMAGENES DE RECETAS, aca al hacer click en el titulo deben desaparecer los p de las imagenes
+    Selectores de clase: Implementar los selectores de clases, utilizar el método de
+    jQuery denominado `toggle` para hacer desaparecer y aparecer el contenido en todas
+    las tarjetas "card" de la sección de Recetas Relacionadas, esto debe suceder cuando
+    el usuario haga un clic sobre el título de cualquiera de las tres tarjetas. (3 Puntos)
+
+    <div class="container mb-5">
+        <div class="row mb-5 gap-5 justify-content-evenly">
+            <!-- tarjeta 1 -->
+            <div class="card col-10 col-sm-10 col-md-3">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-body border border-2 ">
+                    <h5 class="card-title title-color">
+
+                    </h5>
+                    <p class="card-text tx-color ">
+
+                    </p>
+                    <div class="d-flex justify-content-around ">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="card-text border border-bt-1 tx-color mb-2 ">
+
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <h6 class="d-inline me-3">
+
+                        </h6>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <section class="bg-newsl py-5 ">
+        <div class="container justify-content-center ">
+            <h2 class="text-center p-4 display-5">
+                SUSCRÍBETE EN NUESTRO NEWSLETTER
+            </h2>
+            <h3 class="text-center p-4">
+                y obtén las mejores recetas que tenemos en
+                <span class="texto-lobster">Ricomida</span>
+            </h3>
+            <div class="text-center py-5 mb-5 ">
+                <button class="btn btn-light ">Empezar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de pagina -->
+
+    <footer>
+
+
+        <section class="text-center tx-color mb-3 bg-propio py-5">
+            <h2>
+                <span class="texto-lobster tx-color ">Ricomida</span>
+            </h2>
+        </section>
+    </footer>
+
+
+    <!-- scripts de base -->
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1266518be6.js" crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
