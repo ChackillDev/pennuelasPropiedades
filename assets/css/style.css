@@ -6,11 +6,12 @@ body *{
     font-style: normal;
 }
 
-br {
-    padding-bottom: 30px;
+.ingredientes li{
+    list-style: none;
 }
+
 .dim-imag-carr{
-width: 20%;
+width: 17%;
 
 }
 .texto-lobster{
