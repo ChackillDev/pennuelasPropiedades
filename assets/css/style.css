@@ -39,7 +39,7 @@ width: 17%;
     color: #373A3C;
 }
 
-.carousel-item {
+.carousel-item, .tx-color {
     color: #FFFFFF;
 }
 
