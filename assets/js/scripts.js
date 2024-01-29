@@ -13,6 +13,16 @@ $(function () {
 $("#enviarCorreo").click(function () {
     alert("El correo fue enviado correctamente...");
 });
+// se coloca el titulo en rojo al hacer doble click
+$(".ingredientes>H3").dblclick(function () {
+  $(".preparacion>H3").css("background-color", "white")
+  $(".ingredientes>H3").css("background-color", "red")
+});
 
+$(".preparacion>H3").dblclick(function () {
+  
+  $(".ingredientes>H3").css("background-color", "white")
+  $(".preparacion>H3").css("background-color", "red")
+});
 
 });
